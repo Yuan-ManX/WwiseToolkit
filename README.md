@@ -1,8 +1,8 @@
-# WwiseTools
+# WwiseToolkit
 
-WwiseTools主要包括Wwise SDK、Wwise Unity Integration和WAAPI三个部分。
+WwiseToolkit主要包括Wwise SDK、Wwise Unity Integration和WAAPI三个部分。
 
-Wwise SDK、Wwise Unity Integration和WAAPI是三个不同的工具，各自有不同的功能和用途。以下是它们之间的详细区别解释：
+Wwise SDK、Wwise Unity Integration和WAAPI是三个不同的工具，各自有不同的功能和用途。以下是它们的内容：
 
 1. Wwise SDK (C++)
 
