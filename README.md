@@ -1,19 +1,22 @@
 # WwiseToolkit
 
-WwiseToolkit主要包括Wwise SDK、Wwise Unity Integration和WAAPI三个部分。
+WwiseToolkit consists of three main parts, Wwise SDK, Wwise Unity Integration and WAAPI.
 
-Wwise SDK、Wwise Unity Integration和WAAPI是三个不同的工具，各自有不同的功能和用途。以下是它们的内容：
+* [中文版](./README_CN.md)
+* [English](./README.md)
+
+Wwise SDK, Wwise Unity Integration and WAAPI are three different tools, each with different functions and purposes. The following are their contents.
 
 1. Wwise SDK (C++)
 
-Wwise SDK是一款适用于游戏开发者的音频引擎软件开发工具包，它提供了一系列功能和API，使开发者能够在游戏中实现高质量的音频效果。Wwise SDK包含了丰富的音频处理和管理功能，如音频事件的创建、音频轨道的混合和过渡、音频效果的应用等等。通过使用Wwise SDK，开发者可以轻松地管理游戏中的所有音频内容。
+The Wwise SDK is an audio engine software development kit for game developers that provides a range of features and APIs that enable developers to achieve high-quality audio effects in their games.The Wwise SDK includes a rich set of audio processing and management features, such as audio event creation, audio track mixing and transitions, application of audio effects, and more. By using the Wwise SDK, developers can easily manage all audio content in the game.
 
 2. Wwise Unity Integration (C#)
 
-Wwise Unity Integration是一款基于Unity引擎的插件，用于将Wwise SDK集成到Unity项目中。它提供了许多工具和功能，使开发者能够在Unity中使用Wwise SDK的所有功能。Wwise Unity Integration允许开发者在Unity编辑器中创建、编辑和管理Wwise音频事件，以及在运行时播放、控制和修改Wwise音频事件的参数。通过使用Wwise Unity Integration，开发者可以轻松地将Wwise音频引擎集成到Unity游戏中，实现高质量的音频效果。
+Wwise Unity Integration is a Unity engine based plugin for integrating Wwise SDK into Unity projects. It provides a number of tools and features that enable developers to use all the features of the Wwise SDK in Unity.Wwise Unity Integration allows developers to create, edit and manage Wwise audio events in the Unity editor, as well as play, control and modify the parameters of Wwise audio events at runtime. By using Wwise Unity Integration, developers can easily integrate the Wwise audio engine into their Unity games and achieve high-quality audio effects.
 
 3. WAAPI
 
-WAAPI（Wwise Authoring API）是一组API，用于通过编程方式与Wwise项目进行交互和管理。WAAPI可以用于自动化音频内容的创建、管理和导出，以及与第三方工具的集成。通过使用WAAPI，开发者可以轻松地进行批量处理、自动化流程、自定义工作流程等等，以提高生产效率和降低出错率。WAAPI可以与Wwise SDK和Wwise Unity Integration一起使用，以便更方便地管理和控制Wwise项目中的音频内容。
+WAAPI (Wwise Authoring API) is a set of APIs for programmatically interacting with and managing Wwise projects.WAAPI can be used to automate the creation, management and export of audio content, as well as integration with third-party tools. By using WAAPI, developers can easily perform batch processing, automate processes, customize workflows, and more to increase productivity and reduce error rates. WAAPI can be used with the Wwise SDK and Wwise Unity Integration to more easily manage and control audio content in Wwise projects.
 
-综上所述，Wwise SDK、Wwise Unity Integration和WAAPI是三个不同的工具，各自有不同的功能和用途。Wwise SDK提供了一系列功能和API，用于实现高质量的音频效果；Wwise Unity Integration用于将Wwise SDK集成到Unity项目中，以便在Unity中使用Wwise SDK的所有功能；WAAPI则用于通过编程方式与Wwise项目进行交互和管理，以提高生产效率和降低出错率。开发者可以根据实际需求选择使用其中的一个或多个工具。
+In summary, the Wwise SDK, Wwise Unity Integration, and WAAPI are three different tools, each with different functions and uses. Wwise Unity Integration is used to integrate the Wwise SDK into Unity projects to use all the features of the Wwise SDK in Unity; WAAPI is used to programmatically interact with and manage Wwise projects to improve productivity and reduce error rates. Developers can choose to use one or more of these tools depending on their needs.
