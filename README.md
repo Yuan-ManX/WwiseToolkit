@@ -15,6 +15,22 @@ Wwise SDK is an audio engine software development kit for game developers that p
 
 Wwise Unity Integration is a Unity engine based plugin for integrating Wwise SDK into Unity projects. It provides a number of tools and features that enable developers to use all the features of the Wwise SDK in Unity.Wwise Unity Integration allows developers to create, edit and manage Wwise audio events in the Unity editor, as well as play, control and modify the parameters of Wwise audio events at runtime. By using Wwise Unity Integration, developers can easily integrate the Wwise audio engine into their Unity games and achieve high-quality audio effects.
 
+The classes in Wwise Unity Integration are numerous and cover everything from audio event management to audio effect processing. Some of the most commonly used classes are listed below with a brief description of their functions and usage.
+
+1. AkInitializer class: This class is used to initialise and connect the Wwise engine to the Unity engine, set global audio settings, preload audio events, etc.
+2. AkBankManager class: This class is used to manage Wwise resource packages, you can load and unload resource packages, check the status of banks, etc.
+3. AkSoundEngine class: this class is used to control the Wwise engine, you can play, pause, stop audio events, set audio parameters, etc.
+4. AkEvent class: This class represents Wwise audio events and can be used to play audio events, set audio parameters, etc. by calling the Play() method.
+5. AkGameObj: This class represents the game object of the Wwise sound source and provides management and control operations on the game object.
+6. AkAudioListener class: This class represents the Wwise listener and allows you to add multiple listeners to the scene and to position the 3D sound by selecting different listeners.
+7. AkAudioSource class: This class represents a Wwise audio source that allows you to add multiple audio sources to the scene and bind them to an AkEvent to control audio playback.
+8. AkRoomPortal class: This class represents Wwise room doors and can be used to pass sound between rooms by adding them to the scene.
+9. AkState and AkSwitch classes: these two classes are used to manage Wwise states and switches, which can be used to implement dynamic changes to audio events.
+10. AkEnvironment class: this class represents the Wwise environment and can be used to simulate different sound processing, such as reverb, EQ, etc. by selecting different environments.
+11. AkAuxSendArray and AkAuxSendValue classes: these two classes are used to manage the Wwise reverb and delay effects, and can control the reverb and delay effects of audio events.
+
+For different needs, different classes can be chosen to implement the required functionality. Overall, Wwise Unity Integration offers a very rich library of classes to meet the various audio needs of developers.
+
 ## 3. WAAPI
 
 WAAPI (Wwise Authoring API) is a set of APIs for programmatically interacting with and managing Wwise projects.WAAPI can be used to automate the creation, management and export of audio content, as well as integration with third-party tools. By using WAAPI, developers can easily perform batch processing, automate processes, customize workflows, and more to increase productivity and reduce error rates. WAAPI can be used with the Wwise SDK and Wwise Unity Integration to more easily manage and control audio content in Wwise projects.
