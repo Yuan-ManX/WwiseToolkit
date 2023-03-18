@@ -8,6 +8,26 @@ Wwise SDK、Wwise Unity Integration、WAAPI和Unity Component是四个不同的�
 
 Wwise SDK是一款适用于游戏开发者的音频引擎软件开发工具包，它提供了一系列功能和API，使开发者能够在游戏中实现高质量的音频效果。Wwise SDK包含了丰富的音频处理和管理功能，如音频事件的创建、音频轨道的混合和过渡、音频效果的应用等等。通过使用Wwise SDK，开发者可以轻松地管理游戏中的所有音频内容。
 
+Wwise SDK 提供了多种编程语言和框架的 API，下面是一些常用的 Wwise SDK C++ API：
+
+1. AK::SoundEngine API：Sound Engine API 是 Wwise SDK 最常用和最核心的 API 之一，它包含了各种音频效果和控制函数，可以实现音效的播放、停止、暂停、淡入淡出、3D 空间化、实时混音等功能。
+2. AK::Event API：Event API 允许开发者定义和触发各种音频事件，例如播放音效、暂停音效、停止音效等等。通过 Event API，开发者可以实现音频动态交互效果，如玩家角色移动时，背景音乐根据距离和方向变化等。
+3. AK::SoundBank API：SoundBank API 允许开发者管理和操作音频资源，例如加载、卸载和预加载音频资源，以及获取音频资源的详细信息。通过 SoundBank API，开发者可以实现更高效的音频资源管理和控制。
+4. AK::Plugin API：Plugin API 允许开发者创建和使用自定义的音频效果插件，例如混响、均衡器、压缩器等。通过 Plugin API，开发者可以扩展 Wwise SDK 的音频效果功能，并实现更加个性化和高品质的音效。
+5. AK::MemoryMgr API：MemoryMgr API 允许开发者管理和控制 Wwise SDK 中的内存分配和释放。通过 MemoryMgr API，开发者可以实现更加灵活的内存管理策略，以提高应用程序的性能和稳定性。
+6. AK::PluginContext API：PluginContext API 允许开发者在插件中访问音频数据、参数、输入输出缓冲区等。通过 PluginContext API，开发者可以实现更加个性化和高效的音频处理，例如自定义的音频效果、声音识别等
+7. AK::BankManager API：BankManager API 允许开发者管理和操作 Wwise 音频工程中的 SoundBank。通过 BankManager API，开发者可以实现更加灵活的 SoundBank 管理，例如加载 SoundBank、卸载 SoundBank、预加载 SoundBank 等。
+8. AK::Metering API：Metering API 允许开发者获取音频信号的级别、峰值、频谱等信息。通过 Metering API，开发者可以实现更加精准和高效的音频分析和处理，例如音量自动调节、声音检测等。
+9. AK::Query API：Query API 允许开发者查询各种音频属性，例如音频文件格式、音频时长、音频采样率等。通过 Query API，开发者可以实现更加精准和高效的音频分析和处理，例如音频文件格式的自适应处理、音频时长的自动调整等。
+10. AK::Thread API：Thread API 允许开发者创建和管理线程，以实现更加复杂和高效的音频处理。通过 Thread API，开发者可以实现并行处理、异步处理等功能，以提高应用程序的性能和稳定性。
+11. AK::PluginParam API：PluginParam API 允许开发者在插件中定义和管理插件参数，例如插件的各种参数、参数类型、范围等。通过 PluginParam API，开发者可以实现更加个性化和高效的插件参数管理，以提高插件的灵活性和可扩展性。
+12. AK::MusicEngine API：MusicEngine API 允许开发者实现游戏中的音乐交互和控制，例如根据玩家行为、游戏状态等动态变化音乐的节奏、曲调、音量等。通过 MusicEngine API，开发者可以实现更加个性化和精准的音乐交互效果，提高游戏的乐趣和体验。
+13. AK::SpatialAudio API：SpatialAudio API 允许开发者实现 3D 音效和环绕声效果，例如将声音位置化、距离衰减、方向和角度变化等。通过 SpatialAudio API，开发者可以实现更加逼真和生动的游戏音效和环境音效，提高游戏的沉浸感和真实感。
+14. AK::PluginServices API：PluginServices API 允许开发者访问 Wwise SDK 中的各种服务和资源，例如获取音频文件、处理参数、设置属性等。通过 PluginServices API，开发者可以实现更加灵活和高效的插件开发，以满足不同的音频处理需求。
+15. AK::StreamMgr API：StreamMgr API 允许开发者管理和控制音频数据的读取和写入，例如通过网络、磁盘、内存等方式读取和写入音频数据。通过 StreamMgr API，开发者可以实现更加灵活和高效的音频数据管理，以提高应用程序的性能和稳定性。
+
+以上是一些常用的 Wwise SDK C++ API，它们提供了丰富的音频处理和控制功能，帮助开发者实现高质量的音频效果和交互。
+
 ## 2.Wwise Unity Integration (C#)
 
 Wwise Unity Integration是一款基于Unity引擎的插件，用于将Wwise SDK集成到Unity项目中。它提供了许多工具和功能，使开发者能够在Unity中使用Wwise SDK的所有功能。Wwise Unity Integration允许开发者在Unity编辑器中创建、编辑和管理Wwise音频事件，以及在运行时播放、控制和修改Wwise音频事件的参数。通过使用Wwise Unity Integration，开发者可以轻松地将Wwise音频引擎集成到Unity游戏中，实现高质量的音频效果。
