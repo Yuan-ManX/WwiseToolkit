@@ -15,7 +15,7 @@ Wwise Unity Integration是一款基于Unity引擎的插件，用于将Wwise SDK�
 Wwise Unity Integration中的类非常多，涵盖了从音频事件管理到音频效果处理等各个方面。下面列出一些常用的类并简要介绍它们的功能和使用方法：
 
 1. AkInitializer类：该类用于初始化和连接Wwise引擎与Unity引擎，可以设置全局音频设置、预加载音频事件等。
-2. AkBankManager类：该类用于管理Wwise资源包，可以加载和卸载资源包、查询银行状态等。
+2. AkBankManager类：该类用于管理Wwise资源包，可以加载和卸载资源包、查询资源包状态等。
 3. AkSoundEngine类：该类用于控制Wwise引擎，可以播放、暂停、停止音频事件，设置音频参数等。
 4. AkEvent类：该类代表Wwise音频事件，可以通过调用Play()方法播放音频事件，设置音频参数等。
 5. AkGameObj：这个类用于表示Wwise声音源的游戏对象，并提供对游戏对象的管理和控制操作。
